@@ -1,0 +1,17 @@
+# Dependencies
+node_modules/
+web/node_modules/
+
+# Environment secrets
+.env
+.env.*
+!.env.example
+web/.env
+web/.env.*
+
+# Build files
+web/build/
+web/dist/
+
+# Logs
+npm-debug.log*
